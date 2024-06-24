@@ -1,0 +1,44 @@
+.more-icon-box {
+    width: 6.5%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-right: 1px solid gray;
+}
+
+.more-icon-box::after {
+    content: "";
+    /* display: block; */
+    width: 2px;
+    background-color: rgba(182, 182, 182, 0.241);
+    margin-left: 103px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+
+
+.whiteicon {
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 100px;
+}
+
+#nav-link {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    margin-top: 2.5%;
+}

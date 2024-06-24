@@ -1,0 +1,116 @@
+.home-container {
+    width: 100vh;
+
+}
+
+.theweeknd {
+    padding: 24% 10% 0 25%;
+    margin-bottom: 0;
+    font-size: medium;
+    color: rgba(178, 178, 178, 0.81);
+    letter-spacing: 7px;
+}
+
+.starboy {
+    position: relative;
+    margin-top: 0;
+    top: 0;
+    left: 25%;
+    font-size: 70px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-family: fantasy;
+    margin-bottom: 0px;
+}
+
+.background-image {
+    position: absolute;
+    top: 15%;
+    left: 44%;
+    width: 41%;
+    height: 85vh;
+    /* Scales image to cover container, may crop if necessary */
+    /* OR */
+    background-size: auto;
+    /* Displays image at its natural size, may leave gaps or overflow */
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.text-content {
+    position: relative;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 25%;
+    font-weight: 600;
+    color: rgba(178, 178, 178, 0.81);
+}
+
+
+.audio-controls {
+    position: absolute;
+    bottom: 20px;
+    left: 12%;
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    flex-direction: row; /* Place items in a row */
+}
+
+.audio-button-container {
+    margin-right: 10px; /* Add space between button and progress bar */
+    display: flex;
+    align-items: center;
+}
+
+.audio-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.progress-container {
+    display: flex;
+    flex-direction: column; /* Stack progress bar and slider vertically */
+    width: 200px; /* Adjust as needed */
+    margin-top: 15px;
+}
+
+.custom-progress-bar {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: -35px; /* Add space between progress bar and slider */
+    .css-6anioa-MuiSlider-root{
+        margin-top: 0px;
+    }
+}
+
+.custom-progress-bar .MuiLinearProgress-bar {
+    background-color: black;
+    .css-6anioa-MuiSlider-root{
+        margin-top: 0px;
+    }
+}
+
+
+.custom-slider {
+    color: white;
+    background-color: transparent;
+    width: 100%;
+    height: 0px;
+    .css-ttgsjq-MuiSlider-track{
+        background-color: transparent;
+    }
+    .css-6anioa-MuiSlider-root{
+        margin-top: 0px;
+    }
+}
+
